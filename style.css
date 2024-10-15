@@ -1,0 +1,108 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    background-color: rgb(115, 216, 216);
+}
+
+input{
+    border: 1px solid rgb(76, 74, 74);
+    border-radius: 5px;
+    padding: 4px;
+    height: 22px;
+    /* width: 130px; */
+    width: auto;
+}
+.my_font{
+    font-weight: bold;
+}
+.form_container {
+    height: 340px;
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 2%;
+    background: linear-gradient(to right, rgb(248, 248, 249), rgb(115, 216, 216));
+    box-shadow:#5e5151;
+    border: 1px solid #5e5151;
+    
+}
+div{
+    margin: 8px;
+    padding: 2px;
+}
+span{
+    
+}
+form .all_rows{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+form .row1{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+form .row2{
+    display: flex;  
+    justify-content: space-between;
+
+    align-items: center;
+    /* padding: 3px; */
+}
+form .row3{
+    
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 3px; */
+}
+form input{
+    margin-left: 3px;
+}
+.radio_div{
+    display: flex;  
+    align-items: center;
+    gap:5px;
+    margin-left: 20px;
+
+
+}
+form .submit_div{
+    display: flex;  
+    align-items: start;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+form .submit_div button{
+    border: none;
+
+}
+.btn_cancel{
+    margin: 5px;
+    color: #fff;
+    /* background-color: rgb(227, 77, 12); */
+    background: linear-gradient(to right, red, orange);
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+.btn_submit{
+    
+    margin: 5px;
+    color: #fff;
+    /* background-color: rgb(11, 173, 237); */
+    background: linear-gradient(to right, blue, skyblue);
+    padding: 8px 15px;
+    border-radius: 6px;
+}

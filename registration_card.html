@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Card</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="form_container">
+    <h2>Registration</h2>
+    <form action="#">
+      <!-- ALL row div starts from here -->
+      <!-- row1 starts from here -->
+
+      <div class="all_rows">
+        <div class="row1 my_font">
+          <span>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+          </span>
+          <span>
+            <label for="userName" style="margin-left: 5px;">User Name</label>
+            <input type="text" id="userName" name="userName" placeholder="Enter your username" />
+          </span>
+
+
+        </div>
+        <!-- row1 ends here -->
+
+        <!-- row2 starts from here -->
+        <div class="row2 my_font">
+          <span>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" style="margin-left: 30px;" />
+          </span>
+
+          <span>
+
+            <label for="phoneNumber" style="margin-left: 5px;">Phone Number</label>
+            <input type="number" id="phoneNumber" name="phoneNumber" placeholder="Enter your number" />
+          </span>
+
+        </div>
+        <!-- row2 ends here -->
+
+        <!-- row3 starts here -->
+        <div class="row3 my_font">
+
+          <span>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter your password" />
+
+          </span>
+          <span>
+            <label for="confirmPwd" style="margin-left: 10px;">Confirm Password</label>
+            <input type="password" id="confirmPwd" name="confirmPwd" placeholder="Confirm your password" />
+
+          </span>
+        </div>
+        <!-- row3 ends here -->
+      </div>
+      <!-- ALL row div ends  here -->
+
+      <!-- radio section starts here           -->
+      <div class="radio_div">
+        <!-- <label for="#">Gender</label> <br> -->
+        <label for="#">Gender</label>
+        <input type="radio" id="gender" name="gender" value="male" />
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" value="female" />
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender" value="other" />
+        <label for="gender">Other</label>
+      </div>
+      <!-- radio section ends here           -->
+
+      <!-- submit div starts from here -->
+      <div class="submit_div">
+        <button class="btn_cancel">Cancel</button>
+        <button class="btn_submit">Submit</button>
+      </div>
+      <!-- submit div ends here -->
+    </form>
+  </div>
+</body>
+
+</html>
