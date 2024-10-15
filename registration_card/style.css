@@ -39,9 +39,7 @@ div{
     margin: 8px;
     padding: 2px;
 }
-span{
-    
-}
+
 form .all_rows{
     display: flex;
     justify-content: center;
@@ -68,14 +66,12 @@ form .row3{
     align-items: center;
     /* padding: 3px; */
 }
-form input{
-    margin-left: 3px;
-}
+
 .radio_div{
     display: flex;  
     align-items: center;
-    gap:5px;
-    margin-left: 20px;
+    gap: 2px;px;
+    margin-left: 18px;
 
 
 }
