@@ -39,6 +39,13 @@ div{
     margin: 8px;
     padding: 2px;
 }
+span{
+    display: flex;
+    align-items: center;
+}
+span input{
+    margin-left: 3px;
+}
 
 form .all_rows{
     display: flex;
@@ -57,20 +64,18 @@ form .row2{
     justify-content: space-between;
 
     align-items: center;
-    /* padding: 3px; */
 }
 form .row3{
     
     display: flex;  
     justify-content: space-between;
     align-items: center;
-    /* padding: 3px; */
 }
 
 .radio_div{
     display: flex;  
     align-items: center;
-    gap: 2px;px;
+    gap: 1px;
     margin-left: 18px;
 
 
@@ -88,8 +93,8 @@ form .submit_div button{
 .btn_cancel{
     margin: 5px;
     color: #fff;
-    /* background-color: rgb(227, 77, 12); */
-    background: linear-gradient(to right, red, orange);
+    background-color: rgb(227, 77, 12);
+    /* background: linear-gradient(to right, red, orange); */
     padding: 8px 15px;
     border-radius: 6px;
 }
@@ -98,7 +103,7 @@ form .submit_div button{
     margin: 5px;
     color: #fff;
     /* background-color: rgb(11, 173, 237); */
-    background: linear-gradient(to right, blue, skyblue);
+    background: linear-gradient(to right, rgb(26, 125, 245), skyblue);
     padding: 8px 15px;
     border-radius: 6px;
 }
