@@ -75,7 +75,7 @@ function calculateResult(
 }
 
 //lets call the function for Result Output
-calculateResult(35, 36, 45, 40, 45);
+calculateResult(83, 36, 45, 40, 45);
 
 //Goodbye, you reached at the end of the program
 
