@@ -19,23 +19,23 @@ function calculateResult(
             $countGrade = "A+";
             break;
         }
-        case ($avg_marks >= 70 && $avg_marks <= 79): {
+        case ($avg_marks >= 70 && $avg_marks < 80): {
             $countGrade = "A";
             break;
         }
-        case ($avg_marks >= 60 && $avg_marks <= 69): {
+        case ($avg_marks >= 60 && $avg_marks < 70): {
             $countGrade = "A-";
             break;
         }
-        case ($avg_marks >= 50 && $avg_marks <= 59): {
+        case ($avg_marks >= 50 && $avg_marks < 60): {
             $countGrade = "B";
             break;
         }
-        case ($avg_marks >= 40 && $avg_marks <= 49): {
+        case ($avg_marks >= 40 && $avg_marks < 50): {
             $countGrade = "C";
             break;
         }
-        case ($avg_marks >= 33 && $avg_marks <= 39): {
+        case ($avg_marks >= 33 && $avg_marks < 40): {
             $countGrade = "D";
             break;
         }
@@ -57,8 +57,13 @@ function calculateResult(
     ) {
         echo "mark range is invalid";
     } else {
-        if ($avg_marks < 33) {
-            echo "Maf kor! Tui KK";
+        if (
+            $avg_marks < 33 or
+            ($bangla < 33) or ($english < 33)
+            or ($physics < 33) or ($maths < 33)
+            or ($chemistry < 33)
+        ) {
+            echo "You have failed the test";
 
         } else {
             echo $student_grades;
@@ -70,7 +75,8 @@ function calculateResult(
 }
 
 //lets call the function for Result Output
-calculateResult(33, 33, 100, 100, 30);
-//Goodbye, you reached end of the program
+calculateResult(35, 36, 45, 40, 45);
+
+//Goodbye, you reached at the end of the program
 
 ?>

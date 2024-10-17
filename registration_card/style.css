@@ -16,7 +16,7 @@ input{
     border-radius: 5px;
     padding: 4px;
     height: 22px;
-    /* width: 130px; */
+    /* width: 120px; */
     width: auto;
 }
 .my_font{
@@ -36,15 +36,15 @@ input{
     
 }
 div{
-    margin: 8px;
-    padding: 2px;
+    margin: 7px;
+    padding: 1px;
 }
 span{
     display: flex;
     align-items: center;
 }
 span input{
-    margin-left: 3px;
+    margin-left: 12px;
 }
 
 form .all_rows{
@@ -76,15 +76,15 @@ form .row3{
     display: flex;  
     align-items: center;
     gap: 1px;
-    margin-left: 18px;
+    margin-left: 14px;
 
 
 }
 form .submit_div{
     display: flex;  
     align-items: start;
-    padding: 10px;
-    margin-bottom: -10px;
+    padding: 2px;
+    margin-top: 20px;
 }
 form .submit_div button{
     border: none;
